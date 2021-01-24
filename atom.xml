@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>树梢</title>
+  
+  <subtitle>Welcome to Treetop!</subtitle>
+  <link href="https://sleepingraven.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://sleepingraven.github.io/"/>
+  <updated>2021-01-22T06:39:00.000Z</updated>
+  <id>https://sleepingraven.github.io/</id>
+  
+  <author>
+    <name>sleepingraven</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MapReduce 编程实践</title>
+    <link href="https://sleepingraven.github.io/practice/mapreduce-bian-cheng-shi-jian/"/>
+    <id>https://sleepingraven.github.io/practice/mapreduce-bian-cheng-shi-jian/</id>
+    <published>2021-01-22T06:39:00.000Z</published>
+    <updated>2021-01-22T06:39:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;MapReduce 采用了「分而治之」的思想。在分布式计算中，MapReduce</summary>
+        
+      
+    
+    
+    
+    <category term="实战" scheme="https://sleepingraven.github.io/categories/practice/"/>
+    
+    
+    <category term="大数据" scheme="https://sleepingraven.github.io/tags/big-data/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hadoop 大数据平台搭建</title>
+    <link href="https://sleepingraven.github.io/practice/hadoop-da-shu-ju-ping-tai-da-jian/"/>
+    <id>https://sleepingraven.github.io/practice/hadoop-da-shu-ju-ping-tai-da-jian/</id>
+    <published>2021-01-22T05:29:00.000Z</published>
+    <updated>2021-01-22T05:29:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Hadoop 由 Apache Software Foundation 公司于 2005 年秋天作为 Lucene 的子项目 Nutch 的一部分正式引入。它受到论文 MapReduce 、GFS 与 Bigtable</summary>
+        
+      
+    
+    
+    
+    <category term="实战" scheme="https://sleepingraven.github.io/categories/practice/"/>
+    
+    
+    <category term="大数据" scheme="https://sleepingraven.github.io/tags/big-data/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OpenStack 开源云计算平台搭建</title>
+    <link href="https://sleepingraven.github.io/practice/openstack-kai-yuan-yun-ji-suan-ping-tai-da-jian/"/>
+    <id>https://sleepingraven.github.io/practice/openstack-kai-yuan-yun-ji-suan-ping-tai-da-jian/</id>
+    <published>2021-01-22T02:39:00.000Z</published>
+    <updated>2021-01-22T02:39:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;OpenStack 是一个旨在为公共及私有云的建设与管理提供软件的开源项目，其首要任务是简化云的部署过程并为其带来良好的可扩展性。&lt;/p&gt;
+&lt;p&gt;OpenStack 云计算平台，帮助服务商和企业内部实现类似于 Amazon EC2 和 S3</summary>
+        
+      
+    
+    
+    
+    <category term="实战" scheme="https://sleepingraven.github.io/categories/practice/"/>
+    
+    
+    <category term="大数据" scheme="https://sleepingraven.github.io/tags/big-data/"/>
+    
+    <category term="云计算" scheme="https://sleepingraven.github.io/tags/cloud-computing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件测试技术</title>
+    <link href="https://sleepingraven.github.io/notes/ruan-jian-ce-shi-ji-zhu/"/>
+    <id>https://sleepingraven.github.io/notes/ruan-jian-ce-shi-ji-zhu/</id>
+    <published>2021-01-21T13:41:00.000Z</published>
+    <updated>2021-01-21T13:41:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;软件测试的定义&quot;&gt;&lt;a href=&quot;# 软件测试的定义&quot; class=&quot;headerlink&quot; title=&quot;软件测试的定义&quot;&gt;&lt;/a&gt;软件测试的定义 &lt;/h2&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://sleepingraven.github.io/categories/notes/"/>
+    
+    
+    <category term="软件工程" scheme="https://sleepingraven.github.io/tags/software-engineering/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>云计算与大数据概论</title>
+    <link href="https://sleepingraven.github.io/notes/yun-ji-suan-yu-da-shu-ju-gai-lun/"/>
+    <id>https://sleepingraven.github.io/notes/yun-ji-suan-yu-da-shu-ju-gai-lun/</id>
+    <published>2021-01-21T13:12:00.000Z</published>
+    <updated>2021-01-21T13:12:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;云计算与大数据概述&quot;&gt;&lt;a href=&quot;# 云计算与大数据概述&quot; class=&quot;headerlink&quot; title=&quot;云计算与大数据概述&quot;&gt;&lt;/a&gt;云计算与大数据概述 &lt;/h2&gt;&lt;h3 id=&quot;云计算的概念&quot;&gt;&lt;a href=&quot;# 云计算的概念&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://sleepingraven.github.io/categories/notes/"/>
+    
+    
+    <category term="大数据" scheme="https://sleepingraven.github.io/tags/big-data/"/>
+    
+    <category term="云计算" scheme="https://sleepingraven.github.io/tags/cloud-computing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机操作系统</title>
+    <link href="https://sleepingraven.github.io/notes/ji-suan-ji-cao-zuo-xi-tong/"/>
+    <id>https://sleepingraven.github.io/notes/ji-suan-ji-cao-zuo-xi-tong/</id>
+    <published>2021-01-21T12:39:00.000Z</published>
+    <updated>2021-01-21T12:39:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;操作系统引论&quot;&gt;&lt;a href=&quot;# 操作系统引论&quot; class=&quot;headerlink&quot; title=&quot;操作系统引论&quot;&gt;&lt;/a&gt;操作系统引论 &lt;/h2&gt;&lt;h3 id=&quot;操作系统的目标&quot;&gt;&lt;a href=&quot;# 操作系统的目标&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://sleepingraven.github.io/categories/notes/"/>
+    
+    
+    <category term="计算机" scheme="https://sleepingraven.github.io/tags/computer/"/>
+    
+    <category term="操作系统" scheme="https://sleepingraven.github.io/tags/operating-system/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ASCII 编码一览表</title>
+    <link href="https://sleepingraven.github.io/document/ascii-bian-ma-yi-lan-biao/"/>
+    <id>https://sleepingraven.github.io/document/ascii-bian-ma-yi-lan-biao/</id>
+    <published>2021-01-21T12:16:00.000Z</published>
+    <updated>2021-01-21T12:16:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;right&quot;&gt; 二进制 &lt;/th&gt;
+&lt;th align=&quot;right&quot;&gt; 十进制 &lt;/th&gt;
+&lt;th align=&quot;right&quot;&gt; 十六进制 &lt;/th&gt;
+&lt;th&gt; 字符 / 缩写 &lt;/th&gt;
+&lt;th&gt; 解释</summary>
+        
+      
+    
+    
+    
+    <category term="文档" scheme="https://sleepingraven.github.io/categories/document/"/>
+    
+    
+    <category term="IT" scheme="https://sleepingraven.github.io/tags/internet-technology/"/>
+    
+  </entry>
+  
+</feed>

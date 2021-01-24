@@ -1,0 +1,2199 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="软件测试技术, 树梢">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>软件测试技术 | 树梢</title>
+    <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/icon_apache.svg">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/css/my.css">
+
+    <script src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="树梢" type="application/atom+xml">
+</head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/medias/icon_apache.svg" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">树梢</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/medias/icon_apache.svg" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">树梢</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/sleepingraven" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Follow me on Github
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/sleepingraven" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Follow me on Github" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/medias/featureimages/8.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">软件测试技术</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/software-engineering/">
+                                <span class="chip bg-color">软件工程</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/notes/" class="post-category">
+                                笔记
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-01-21
+                </div>
+                
+
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    25 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/prism/prism.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h2 id="软件测试的定义"><a href="# 软件测试的定义" class="headerlink" title="软件测试的定义"></a>软件测试的定义 </h2><h3 id="软件测试是一个过程或一系列过程，用来确认计算机代码完成了其应该完成的功能，不执行其不该有的操作。"><a href="# 软件测试是一个过程或一系列过程，用来确认计算机代码完成了其应该完成的功能，不执行其不该有的操作。" class="headerlink" title="软件测试是一个过程或一系列过程，用来确认计算机代码完成了其应该完成的功能，不执行其不该有的操作。"></a> 软件测试是一个过程或一系列过程，用来确认计算机代码完成了其应该完成的功能，不执行其不该有的操作。</h3><h3 id="软件测试与调试的区别？"><a href="# 软件测试与调试的区别？" class="headerlink" title="软件测试与调试的区别？"></a>软件测试与调试的区别？</h3><ul>
+<li>测试是为了发现软件中存在的错误；调试是为证明软件开发的正确性。</li>
+<li>测试以已知条件开始，使用预先定义的程序，且有预知的结果，不可预见的仅是程序是否通过测试；调试一般是以不可知的内部条件开始，除统计性调试外，结果是不可预见的。</li>
+<li>测试是有计划的，需要进行测试设计；调试是不受时间约束的。</li>
+<li>测试经历发现错误、改正错误、重新测试的过程；调试是一个推理过程。</li>
+<li>测试的执行是有规程的；调试的执行往往要求开发人员进行必要推理以至知觉的“飞跃”。</li>
+<li>测试经常是由独立的测试组在不了解软件设计的条件下完成的；调试必须由了解详细设计的开发人员完成。</li>
+<li>大多数测试的执行和设计可以由工具支持；调式时，开发人员能利用的工具主要是调试器。</li>
+</ul>
+<h3 id="对软件测试的理解？"><a href="# 对软件测试的理解？" class="headerlink" title="对软件测试的理解？"></a>对软件测试的理解？</h3><ul>
+<li>软件测试就是说要去根据客户的要求完善它。即要把这个软件还没有符合的或者是和客户要求不一样的，或者是客户要求还没有完全达到要求的部分找出来。</li>
+<li>首先要锻炼自己软件测试能力，包括需求的分析能力，提取能力，逻辑化思想能力，即就是给你一个系统的时候，能够把整个业务流程很清晰的理出。</li>
+<li>学习测试理论知识并与你锻炼的能力相结合。</li>
+<li>想和做。想就是说你看到任何的系统都要有习惯性的思考；做就是把实际去做练习，然后提取经验。</li>
+<li>总结测试用例，测试计划固然重要，但能力和思想一旦到位了，才能成为一名合格的软件测试工程师。</li>
+</ul>
+<h2 id="软件测试的分类"><a href="# 软件测试的分类" class="headerlink" title="软件测试的分类"></a>软件测试的分类 </h2><h3 id="按照测试技术划分"><a href="# 按照测试技术划分" class="headerlink" title="按照测试技术划分"></a> 按照测试技术划分</h3><ul>
+<li><p>白盒测试</p>
+<ul>
+<li>通过对程序内部结构的分析、检测来寻找问题。检查是否所有的结构及逻辑都是正确的，检查软件内部动作是否按照设计说明的规定正常进行。—结构测试</li>
+</ul>
+</li>
+<li><p>黑盒测试</p>
+<ul>
+<li>通过软件的外部表现来发现错误，是在程序界面处进行测试，只是检查是否按照需求规格说明书的规定正常实现。—功能测试</li>
+</ul>
+</li>
+<li><p>灰盒测试</p>
+<ul>
+<li>介于白盒测试与黑盒测试之间的测试。</li>
+</ul>
+</li>
+</ul>
+<h3 id="按照是否让备测软件运行划分"><a href="# 按照是否让备测软件运行划分" class="headerlink" title="按照是否让备测软件运行划分"></a>按照是否让备测软件运行划分</h3><ul>
+<li>静态测试</li>
+<li>动态测试</li>
+</ul>
+<h3 id="按照开发阶段划分"><a href="# 按照开发阶段划分" class="headerlink" title="按照开发阶段划分"></a>按照开发阶段划分</h3><ul>
+<li><p>单元测试</p>
+<ul>
+<li>模块测试，检查每个程序单元嫩否正确实现详细设计说明中的模块功能等。</li>
+</ul>
+</li>
+<li><p>集成测试</p>
+<ul>
+<li>组装测试，将所有的程序模块进行有序、递增的测试，检验程序单元或部件的接口关系</li>
+</ul>
+</li>
+<li><p>系统测试</p>
+<ul>
+<li>检查完整的程序系统能否和系统（包括硬件、外设和网络、系统软件、支持平台等）正确配置、连接，并满足用户需求。</li>
+</ul>
+</li>
+<li><p>确认测试</p>
+<ul>
+<li>证实软件是否满足特定于其用途的需求，是否满足软件需求说明书的规定。</li>
+</ul>
+</li>
+<li><p>验收测试</p>
+<ul>
+<li>按项目任务或合同，供需双方签订的验收依据文档进行的对整个系统的测试与评审，决定是否接受或拒收系统。</li>
+</ul>
+</li>
+</ul>
+<h3 id="按照测试实施组织划分"><a href="# 按照测试实施组织划分" class="headerlink" title="按照测试实施组织划分"></a>按照测试实施组织划分</h3><ul>
+<li>开发方测试</li>
+<li>用户测试</li>
+<li>第三方测试</li>
+</ul>
+<h2 id="软件测试的原则"><a href="# 软件测试的原则" class="headerlink" title="软件测试的原则"></a>软件测试的原则</h2><ol>
+<li>测试用例中一个必需部分是对预期输出或结果的定义；</li>
+<li>程序员应当避免测试自己编写的程序；</li>
+<li>编写软件的组织不应当测试自己编写的程序；</li>
+<li>应该彻底检查每个测试的执行结果；</li>
+<li>测试用例的编写不仅应当根据有效和预期的输入情况，也应当根据无效和未预料到的输入情况；</li>
+<li>检查程序是否“未做其应该做的”仅是测试的一半，测试的另一半是检查程序是否“做了不应该做的”；</li>
+<li>应避免测试用例用后即弃，除非软件本身就是一个一次性的软件；</li>
+<li>计划测试工作时不应默许假定不会发现错误；</li>
+<li>程序某部分存在更多错误的可能性，与该部分已发现错误的数量成正比；</li>
+<li>软件测试是一项极富创造性、极具智力挑战性的工作。</li>
+</ol>
+<h2 id="测试用例的设计"><a href="# 测试用例的设计" class="headerlink" title="测试用例的设计"></a>测试用例的设计 </h2><h3 id="测试用例的定义"><a href="# 测试用例的定义" class="headerlink" title="测试用例的定义"></a> 测试用例的定义</h3><ul>
+<li>测试用例是为特定的目的而设计的一组测试输入、执行条件和预期的结果。</li>
+<li>测试用例是执行的最小实体。</li>
+</ul>
+<h3 id="特征"><a href="# 特征" class="headerlink" title="特征"></a>特征</h3><ul>
+<li>最有可能抓住错误的；</li>
+<li>不是重复的、多余的；</li>
+<li>一组相似测试用例中最有效的；</li>
+<li>既不是太简单，也不是太复杂。</li>
+</ul>
+<h3 id="设计测试用例的基本准则"><a href="# 设计测试用例的基本准则" class="headerlink" title="设计测试用例的基本准则"></a>设计测试用例的基本准则</h3><ul>
+<li>测试用例的代表性、测试结果的可判定性、测试结果的可再现性。</li>
+</ul>
+<h2 id="黑盒测试"><a href="# 黑盒测试" class="headerlink" title="黑盒测试"></a>黑盒测试 </h2><h3 id="等价类划分法"><a href="# 等价类划分法" class="headerlink" title="等价类划分法"></a> 等价类划分法</h3><ul>
+<li><p>等价类划分法的设计方法</p>
+<ul>
+<li>是把所有可能的输入数据，即程序的输入域划分成若干部分（子集），然后从每一个子集中选取少量具有代表性的数据作为测试用例。</li>
+<li>等价类是指某个输入域的子集合。在该子集合中各个输入数据对于揭露程序中错误都是等效的。并合理地假定：测试某等价类的代表值就等于对这一类其他值的测试。</li>
+<li>有效等价类：对于程序的规格说明来说是合理的、有意义的输入数据构成的集合</li>
+<li>无效等价类：对软件规格说明而言，是无意义的、不合理的输入数据所构成的集合</li>
+<li>等价类对于测试有两个重要的意义：完备性、无冗余性</li>
+</ul>
+</li>
+<li><p>等价类划分法的原则</p>
+<ul>
+<li><p>按照区间划分</p>
+<ul>
+<li>一个有效等价类和两个无效等价类。</li>
+</ul>
+</li>
+<li><p>按照数值划分</p>
+<ul>
+<li>n 个有效等价类和一个无效等价类</li>
+</ul>
+</li>
+<li><p>按照数值集合划分</p>
+<ul>
+<li>一个有效等价类和一个无效等价类</li>
+</ul>
+</li>
+<li><p>按照限制条件或规则划分</p>
+<ul>
+<li>可确定一个有效等价类和若干个无效等价类</li>
+</ul>
+</li>
+<li><p>细分等价类</p>
+</li>
+</ul>
+</li>
+<li><p>等价类划分法的步骤</p>
+<ul>
+<li><p>确定等价类</p>
+</li>
+<li><p>建立等价类表，列出所有划分出的等价类</p>
+</li>
+<li><p>从划分出的等价类中按以下的 3 个原则设计测试用例：</p>
+<ul>
+<li>为每一个等价类规定一个唯一的编号</li>
+<li>设计一个新的测试用例，使其尽可能多的覆盖尚未被覆盖的有效等价类，重复这一步，直到所有的有效等价类都被覆盖为止；</li>
+<li>设计一个新的测试用例，使其仅覆盖一个尚未被覆盖的无效等价类，重复这一步，直到所有的无效等价类都被覆盖为止。  </li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>确定等价类的方法</p>
+<ul>
+<li>先考虑输入数据的类型（合法型和非法型）；</li>
+<li>再考虑数据范围（合法型中的合法区间和非法区间）；</li>
+<li>最后考虑输出结果，逆向设定输入。</li>
+</ul>
+</li>
+</ul>
+<h3 id="边界值分析法"><a href="# 边界值分析法" class="headerlink" title="边界值分析法"></a>边界值分析法</h3><ul>
+<li><p>边界值分析法就是对输入或输出的边界值进行测试</p>
+</li>
+<li><p>特点</p>
+<ul>
+<li>具有很强的发现程序错误的能力；测试用例来自等价类的边界；</li>
+</ul>
+</li>
+<li><p>基本原理</p>
+<ul>
+<li>故障往往发生在输入定义域和输出值域的边界上，而不是在其内部。</li>
+</ul>
+</li>
+<li><p>方法</p>
+<ul>
+<li>首先应确定边界情况</li>
+<li>选取正好等于、刚刚大于或刚刚小于边界的值作为测试数据</li>
+</ul>
+</li>
+<li><p>标准边界值：min、min+、nom、max-、max<br>健壮边界值：min、min+、nom、max-、max、min-、max+</p>
+</li>
+<li><p>例</p>
+<ul>
+<li>&lt;xnom,ymin&gt;，&lt;xnom,ymin+&gt;，&lt;xnom,ymax&gt;，&lt;xnom,ymax-&gt;，</li>
+<li>&lt;xmin,ynom&gt;，&lt;xmin+,ynom&gt;，&lt;xmax,ynom&gt;，&lt;xmax-,ynom&gt;，</li>
+<li>&lt;xnom,ynom&gt;</li>
+</ul>
+</li>
+<li><p>对于一个含有 n 个变量的程序，只让其中一个变量取极值，让其余的变量取正常值，被保留的变量依次取 min、min+、nom、max-、max 值，对每个变量都重复进行。n 个变量的程序，边界值分析测试程序会产生 4n+1 个测试用例。</p>
+</li>
+</ul>
+<h3 id="决策表法"><a href="# 决策表法" class="headerlink" title="决策表法"></a>决策表法</h3><ul>
+<li><p>概述</p>
+<ul>
+<li>决策表法是黑盒测试方法中最为严格、最具有逻辑性的测试方法。</li>
+</ul>
+</li>
+<li><p>什么时候使用？</p>
+<ul>
+<li>程序输入输出比较多，输入之间、输出之间相互制约的条件比较多时，可以清楚地表达它们之间的各种复杂关系。</li>
+</ul>
+</li>
+<li><p>决策表通常由四部分组成</p>
+<ul>
+<li><p>条件桩</p>
+<ul>
+<li>列出问题的所有条件</li>
+</ul>
+</li>
+<li><p>条件项</p>
+<ul>
+<li>针对条件桩给出的条件列出所有可能的取值</li>
+</ul>
+</li>
+<li><p>动作桩</p>
+<ul>
+<li>给出问题规定的可能采取的操作</li>
+</ul>
+</li>
+<li><p>动作项</p>
+<ul>
+<li>与条件项紧密相关，指出在条件项的各组取值情况下应采取的动作</li>
+</ul>
+</li>
+<li><p>规则</p>
+<ul>
+<li>项中的每一列是一条规则，每一条规则是一组测试用例。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>决策表的化简</p>
+<ul>
+<li>合并：如果一个条件项 (表中某列中的条件值) 和另外一个条件项所产生的动作是相同的, 且两个条件项对应的每一行的值只有一个是不同的, 则可以将其合并. 合并的项除了不同值变成”不关心”条目外, 其余不变</li>
+<li>包含：如果两个条件项的动作是相同的，对任意条件 1 的值和条件 2 中对应的值：<br>– 如果条件 1 的值是 T(F), 则条件 2 中的值也是 T(F).<br>– 如果条件 1 的值是 -(不关心), 则条件 2 中的值是 T,F,-，<br>称条件 1 包含条件 2, 条件 2 可以撤去。</li>
+<li>重复 A,B 就可以得到精简的决策表。</li>
+</ul>
+</li>
+<li><p>构造决策表的步骤</p>
+<ul>
+<li>确定规则的个数；</li>
+<li>列出所有的条件桩和动作桩；</li>
+<li>填入输入项；</li>
+<li>填入动作项, 得到初始的决策表；</li>
+<li>对初始的决策表化简。</li>
+</ul>
+</li>
+<li><p>决策表测试法的适用范围</p>
+<ul>
+<li>if-then-else 逻辑突出；</li>
+<li>输入变量之间存在逻辑关系；</li>
+<li>涉及输入变量子集的计算；</li>
+<li>输入和输出之间存在因果关系。</li>
+</ul>
+</li>
+</ul>
+<h3 id="因果图方法"><a href="# 因果图方法" class="headerlink" title="因果图方法"></a>因果图方法</h3><ul>
+<li><p>①概述</p>
+<ul>
+<li>如果输入之间有关系，测试时必须考虑输入条件的各种组合，考虑适合于描述对于多种条件的组合，相应产生多个动作的形式来设计测试用例，这就需要利用因果图。 因果图方法最终生成的就是判定表。适合于检查程序输入条件的各种组合情况。</li>
+</ul>
+</li>
+<li><p>②因果图法的基本思想</p>
+<ul>
+<li>首先从程序规格说明书的描述中, 找出因 (输入条件) 和果(输出结果或者程序状态的改变), 然后通过因果图转换为判定表, 最后为判定表中的每一列设计一个测试用例。</li>
+</ul>
+</li>
+<li><p>③基本符号</p>
+<ul>
+<li>通常在因果图中用 Ci 表示原因，用 Ei 表示结果，各结点表示状态，可取值“0”或“1”。“0”表示某状态不出现，“1”表示某状态出现。</li>
+<li>恒等： c1 为 1, 则 e1 也为 1, 否则 e1 为 0.</li>
+<li>非： 若 c1 是 1, 则 e1 为 0, 否则 e1 是 1.</li>
+<li>或： 若 c1 或 c2 或 c3 是 1, 则 e1 是 1, 若三者都不为 1, 则 e1 为 0.</li>
+<li>与： 若 c1 和 c2 都是 1, 则 e1 为 1, 否则若有其中一个不为 1, 则 e1 为 0.</li>
+</ul>
+</li>
+<li><p>④约束</p>
+<ul>
+<li>实际问题中，输入状态之间可能存在某些依赖关系。</li>
+<li>E 约束(互斥，排他，异)： a,b 最多有一个可能为 1, 不能同时为 1.</li>
+<li>I 约束(包含，或)： a,b,c 中至少有一个必须为 1, 不能同时为 0.</li>
+<li>O 约束(惟一)： a 和 b 必须有一个且仅有一个为 1</li>
+<li>R 约束(要求)：a 是 1 时,b 必须是 1, 即 a 为 1 时,b 不能为 0</li>
+<li>M 约束（屏蔽）：对输出条件的约束, 若结果 a 为 1, 则结果 b 必须为 0.</li>
+</ul>
+</li>
+<li><p>⑤因果图生成测试用例的基本步骤</p>
+<ul>
+<li>找出原因和结果。</li>
+<li>画出因果图。</li>
+<li>增加约束。</li>
+<li>把因果图转化为判定表，并化简。</li>
+<li>把判定表的每一列拿出来作为依据，设计测试用例。</li>
+</ul>
+</li>
+<li><p>⑥例题</p>
+</li>
+<li><p>⑦因果图法的优点</p>
+<ul>
+<li>考虑了多个输入之间的相互组合、相互制约关系；</li>
+<li>能够帮助我们按一定步骤，高效率地选择测试用例，同时还能为我们指出，程序规格说明描述中存在着什么问题。</li>
+</ul>
+</li>
+</ul>
+<h2 id="白盒测试"><a href="# 白盒测试" class="headerlink" title="白盒测试"></a>白盒测试 </h2><h3 id="白盒测试概述"><a href="# 白盒测试概述" class="headerlink" title="白盒测试概述"></a> 白盒测试概述</h3><ul>
+<li>白盒测试也称结构测试或逻辑驱动测试。</li>
+</ul>
+<h3 id="方法"><a href="# 方法" class="headerlink" title="方法"></a>方法</h3><ul>
+<li>程序结构分析；</li>
+<li>逻辑覆盖测试；</li>
+<li>基本路径测试。</li>
+</ul>
+<h3 id="原则"><a href="# 原则" class="headerlink" title="原则"></a>原则</h3><ul>
+<li>保证一个模块中所有独立路径至少被测试一次；</li>
+<li>所有逻辑值均需测试真（True）和假（False）两种情况；</li>
+<li>检查程序的内部数据结构，保证其结构的有效性；</li>
+<li>在取值上、下边界，即可操作范围内运行所有循环</li>
+</ul>
+<h3 id="逻辑覆盖测试"><a href="# 逻辑覆盖测试" class="headerlink" title="逻辑覆盖测试"></a>逻辑覆盖测试 </h3><p> 主要是测试覆盖率，以程序内在逻辑结构为基础的测试。 6 种：语句覆盖 判断覆盖 条件覆盖 判定 - 条件覆盖 条件组合覆盖 路径测试</p>
+<ul>
+<li><p>语句覆盖：在测试时，首先设计若干个测试用例，然后运行被测程序，使程序中的每个可执行语句至少执行一次。</p>
+<ul>
+<li>判定：整体 控制。 包括：a、单一条件判定； b、符合条件覆盖</li>
+<li>语句覆盖率：已执行的可执行语句占程序中可执行语句总数的百分比</li>
+</ul>
+</li>
+<li><p>判定覆盖：设计足够多的测试用例，使程序中的每个判定至少都获得一次“真值”或“假值”。</p>
+</li>
+<li><p>条件覆盖: 构造一组测试用例，使得每一判定语句中每个逻辑条件的可能值至少满足一次。 满足条件覆盖的不一定满足判定覆盖，反之亦然。两者无直接关系。</p>
+</li>
+<li><p>判定 / 条件覆盖：设计足够的测试用例，使得判定中每个条件的所有可能 (真 / 假) 至少出现一次，并且每个判定本身的判定结果 (真 / 假) 也至少出现一次</p>
+</li>
+<li><p>条件组合覆盖（MCC）：设计足够的测试用例，使得每个判定中条件的各种可能组合都至少出现一次。 满足组合条件覆盖的测试用例是一定满足判定覆盖、条件覆盖和判定 / 条件覆盖。</p>
+</li>
+<li><p>修正条件判定覆盖(MCDC)：需要足够的测试用例来确定各个条件能够影响到包含的判定的结果，即要求满足两个条件。</p>
+</li>
+</ul>
+<h2 id="静态测试"><a href="# 静态测试" class="headerlink" title="静态测试"></a>静态测试 </h2><h3 id="静态测试不实际运行软件，主要对软件的编程格式、结构等方面进行评估。可以有人工进行，也可借助软件工具自动进行。"><a href="# 静态测试不实际运行软件，主要对软件的编程格式、结构等方面进行评估。可以有人工进行，也可借助软件工具自动进行。" class="headerlink" title="静态测试不实际运行软件，主要对软件的编程格式、结构等方面进行评估。可以有人工进行，也可借助软件工具自动进行。"></a> 静态测试不实际运行软件，主要对软件的编程格式、结构等方面进行评估。可以有人工进行，也可借助软件工具自动进行。</h3><h3 id="静态测试的方法"><a href="# 静态测试的方法" class="headerlink" title="静态测试的方法"></a>静态测试的方法</h3><ul>
+<li><p>代码检查：代码审查 代码走查 桌面检查 同行评分（略）</p>
+</li>
+<li><p>代码审查</p>
+<ul>
+<li>通常由 4 人组成，其中一人是协调人，一人是程序的编写者，其他人员通常是程序的设计人员以及测试专家。</li>
+<li>优点和作用：错误列表、高效、会后修正、增加修改错误清单、较早发现错误。</li>
+</ul>
+</li>
+<li><p>代码走查</p>
+<ul>
+<li>为测试员的人会带着一些书面的测试用例参加会议</li>
+</ul>
+</li>
+<li><p>桌面检查</p>
+<ul>
+<li>完全没有约束</li>
+<li>开发人员测试自己的程序</li>
+<li>没有展示自己能力，缺乏良好的效应。（效果远远逊于代码审查和代码走查）</li>
+</ul>
+</li>
+</ul>
+<h3 id="静态结构分析"><a href="# 静态结构分析" class="headerlink" title="静态结构分析"></a>静态结构分析</h3><ul>
+<li>主要是以图形的方式表现程序的内部结构。</li>
+</ul>
+<h3 id="代码质量度量"><a href="# 代码质量度量" class="headerlink" title="代码质量度量"></a>代码质量度量</h3><ul>
+<li>功能性 可靠性 可用性 有效性 可维护性 轻便性</li>
+</ul>
+<h2 id="单元测试"><a href="# 单元测试" class="headerlink" title="单元测试"></a>单元测试</h2><h3 id="1．单元测试的定义"><a href="#1．单元测试的定义" class="headerlink" title="1．单元测试的定义"></a>1．单元测试的定义</h3><ul>
+<li>单元测试又称模块测试，是最小单位的测试，其依据是详细设计描述，对模块内所有重要的控制路径设计测试用例，以便发现模块内部的错误。</li>
+<li>单元测试多采用白盒测试技术</li>
+</ul>
+<h3 id="2．单元测试的对象"><a href="#2．单元测试的对象" class="headerlink" title="2．单元测试的对象"></a>2．单元测试的对象</h3><ul>
+<li>结构化程序，单元测试的单元是指单个子程序、函数或过程</li>
+<li>面向对象程序，单元测试的单元是指类或方法（通常为类）。</li>
+</ul>
+<h3 id="3．单元测试的目的"><a href="#3．单元测试的目的" class="headerlink" title="3．单元测试的目的"></a>3．单元测试的目的</h3><ul>
+<li>将模块的功能与定义模块的功能规格说明或接口规格说明进行比较，揭示出模块与其规格说明之间存在的矛盾。</li>
+</ul>
+<h3 id="4．单元测试的人员"><a href="#4．单元测试的人员" class="headerlink" title="4．单元测试的人员"></a>4．单元测试的人员</h3><ul>
+<li>开发人员</li>
+</ul>
+<h3 id="5．单元测试的针对的问题"><a href="#5．单元测试的针对的问题" class="headerlink" title="5．单元测试的针对的问题"></a>5．单元测试的针对的问题</h3><ul>
+<li><p>模块接口</p>
+<ul>
+<li>检查进出程序单元的数据流是否正确。</li>
+</ul>
+</li>
+<li><p>局部数据结构</p>
+<ul>
+<li>必须测试模块内部的数据能否保持完整性。</li>
+</ul>
+</li>
+<li><p>边界条件测试</p>
+<ul>
+<li>主要检查临界数据是否正确处理。</li>
+</ul>
+</li>
+<li><p>独立路径测试</p>
+<ul>
+<li>发现由于不正确的判定或不正常的控制流而产生的错误。</li>
+</ul>
+</li>
+<li><p>出错处理</p>
+<ul>
+<li>要求能预见出错的条件，并设置适当的处理对象，保证其路径的正确性</li>
+</ul>
+</li>
+</ul>
+<h3 id="6．单元测试的流程"><a href="#6．单元测试的流程" class="headerlink" title="6．单元测试的流程"></a>6．单元测试的流程</h3><ul>
+<li>计划单元测试→设计单元测试→执行单元测试→评估单元测试</li>
+</ul>
+<h3 id="7- 计划单元测试"><a href="#7- 计划单元测试" class="headerlink" title="7. 计划单元测试"></a>7. 计划单元测试</h3><ul>
+<li>驱动模块(Drive)：用来模拟被测试模块的上一级模块，相当于被测模块的主程序。它接收数据，将相关数据传送给被测模块，启动被测模块，并打印出相应的结果。</li>
+<li>桩模块(Stub)：用来模拟被测模块工作过程中所调用的模块。它们一般只进行很少的数据处理。</li>
+</ul>
+<h3 id="8．设计单元测试"><a href="#8．设计单元测试" class="headerlink" title="8．设计单元测试"></a>8．设计单元测试</h3><ul>
+<li><p>需要的信息</p>
+<ul>
+<li>模块的规格说明：模块的输入和输出以及模块的功能。</li>
+<li>模块的源代码。</li>
+</ul>
+</li>
+<li><p>测试用例的设计方法</p>
+<ul>
+<li>模块测试总体上是面向白盒测试的（静态、动态）</li>
+<li>后续测试针对较大的元素不易进行白盒测试。</li>
+<li>后续测试着眼于发现其他类型的错误，不一定与程序逻辑结构有关。</li>
+<li>使用一种或多种白盒测试方法分析模块的逻辑结构，然后使用黑盒测试方法对照模块的规格说明补充测试用例。</li>
+</ul>
+</li>
+</ul>
+<h3 id="9- 执行单元测试"><a href="#9- 执行单元测试" class="headerlink" title="9. 执行单元测试"></a>9. 执行单元测试</h3><ul>
+<li>设置测试环境</li>
+<li>将测试环境初始化</li>
+<li>执行测试过程</li>
+</ul>
+<h3 id="10- 评估单元测试"><a href="#10- 评估单元测试" class="headerlink" title="10. 评估单元测试"></a>10. 评估单元测试</h3><ul>
+<li>测试完备性评估</li>
+<li>代码覆盖率评估 </li>
+</ul>
+<h2 id="集成测试"><a href="# 集成测试" class="headerlink" title="集成测试"></a>集成测试 </h2><h3 id="集成测试的定义"><a href="# 集成测试的定义" class="headerlink" title="集成测试的定义"></a> 集成测试的定义</h3><ul>
+<li>集成测试又称组装测试，集成测试是在单元测试的基础上，将所有模块按照设计要求组装成子系统或系统进行的测试活动。</li>
+</ul>
+<h3 id="集成测试的目的"><a href="# 集成测试的目的" class="headerlink" title="集成测试的目的"></a>集成测试的目的</h3><ul>
+<li>确保各单元组合在一起后能够按既定意图协作运行，并确保增量的行为正确，所测试的内容包括单元间的接口以及集成后的功能。</li>
+</ul>
+<h3 id="集成测试的层次"><a href="# 集成测试的层次" class="headerlink" title="集成测试的层次"></a>集成测试的层次</h3><ul>
+<li>模块内集成测试</li>
+<li>子系统内集成测试</li>
+<li>子系统间集成测试</li>
+</ul>
+<h3 id="集成测试的流程"><a href="# 集成测试的流程" class="headerlink" title="集成测试的流程"></a>集成测试的流程 </h3><h3 id="集成测试的方法"><a href="# 集成测试的方法" class="headerlink" title="集成测试的方法"></a> 集成测试的方法</h3><ul>
+<li>静态测试：只要指对概要设计的测试。</li>
+<li>动态测试：以黑盒测试为主，需要了解内部细节时结合白盒测试</li>
+</ul>
+<h3 id="集成测试策略"><a href="# 集成测试策略" class="headerlink" title="集成测试策略"></a>集成测试策略</h3><ul>
+<li><p>非增量式集成</p>
+<ul>
+<li><p>对所有模块进行个别的单元测试后，按照程序结构图将各模块连接起来，把连接后的程序当作一个整体进行测试。</p>
+</li>
+<li><p>关键模块的特征</p>
+<ul>
+<li> 满足某些软件需求；</li>
+<li>在程序的模块结构中位于较高的层次（高层控制模块）；</li>
+<li>较复杂、较易发生错误；</li>
+<li>有明确定义的性能要求。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>增量式集成</p>
+<ul>
+<li><p>逐次将未曾集成测试的模块和已经集成测试的模块（或子系统）结合成程序包，再将这些模块集成为较大系统，在集成的过程中边连接边测试，以发现连接过程中产生的问题。</p>
+</li>
+<li><p>方法</p>
+<ul>
+<li>自顶向下增量式测试：深度优先、广度优先</li>
+<li>自底向上增量式测试</li>
+<li>混合增量式测试</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="不同集成测试方法的比较"><a href="# 不同集成测试方法的比较" class="headerlink" title="不同集成测试方法的比较"></a>不同集成测试方法的比较 </h3><h2 id="系统测试"><a href="# 系统测试" class="headerlink" title="系统测试"></a> 系统测试 </h2><h3 id="系统测试的目的"><a href="# 系统测试的目的" class="headerlink" title="系统测试的目的"></a> 系统测试的目的</h3><ul>
+<li>将系统或程序与其初始目标进行比较，这意味着系统测试并不局限于系统，系统测试是一个试图说明程序作为一个整体是如何不满足其目标的过程。如果产品没有一组书面的、可度量的目标，系统测试也无法进行。</li>
+</ul>
+<h3 id="系统测试的类型"><a href="# 系统测试的类型" class="headerlink" title="系统测试的类型"></a>系统测试的类型</h3><ul>
+<li><p>（1）能力测试</p>
+<ul>
+<li>判断目标文档提及的每一项能力（以区别功能测试中的‘功能’）是否都确实已经实现。</li>
+<li>通常是通过人工检查目标文档中定义了“要做什么”。</li>
+</ul>
+</li>
+<li><p>（2）容量测试</p>
+<ul>
+<li>是程序经受大容量数据的检验，目的是证明程序不能处理目标文档中规定的数据容量。</li>
+<li>容量测试需要大量的资源，不可进行过多。</li>
+<li>如何使操作系统的作业队列达到饱和容量。</li>
+</ul>
+</li>
+<li><p>（3）强度测试</p>
+<ul>
+<li>使程序承受高负载或强度的检验。所谓高强度是指在很短的时间间隔内达到的数据或操作的数量峰值。（要与容量测试相区分）</li>
+<li>强度测试涉及时间因素，适用于在可变负载下运行的程序以及交互式程序、实时程序和过程控制程序。基于 Web 的应用程序也是最常接受强度测试的软件之一。</li>
+<li>如，1. 在很短的时间内是操作系统的作业队列达到峰值；2.web 应用程序要处理一定容量的并发用户。</li>
+<li>注：强度测试时对强度的界定很重要。 </li>
+</ul>
+</li>
+<li><p>（4）易用性测试</p>
+<ul>
+<li>每个用户界面是否都根据用户的智力、教育程度和环境要求进行了调整？</li>
+<li>程序的输出是否有意义、不模糊且无计算机杂乱信息？</li>
+<li>错误诊断信息是否直接，非计算机专业用户是否能够理解（这要求对错误进行精确的预测和详细的分类）？</li>
+<li>整体的用户界面是否在语法、惯例、语义、格式、风格和缩写等方面展现出了相当程度的完整性、一致性和同一性？</li>
+<li>系统是否包含过多或不太可能用到的选项？</li>
+<li>对于所有输入，系统是否返回了即时确认信息？</li>
+<li>程序是否易于使用？如区分大小写的要求用户是否清楚，不同层次菜单之间的浏览是否容易等。</li>
+</ul>
+</li>
+<li><p>（5）安全性测试</p>
+<ul>
+<li>设计测试用例来突破程序安全检查。例如，可以设计测试用例来规避操作系统的内存保护机制、破坏数据库管理系统的数据安全机制等。</li>
+<li>常用的测试用例设计方法是研究类似系统中已知的安全问题，然后生成测试用例，暴露被测系统中的类似问题</li>
+<li>基于 Web 的应用程序常常比绝大多数程序所需的安全测试级别更高，对于电子商务网站尤其如此。</li>
+</ul>
+</li>
+<li><p>（6）性能测试</p>
+<ul>
+<li>很多软件都有特定的性能或效率目标，这些特性描述为在特定负载和配置环境下程序的响应时间和吞吐率。应设计测试用例来说明程序不能满足其性能目标。</li>
+</ul>
+</li>
+<li><p>（7）存储测试</p>
+<ul>
+<li>软件偶尔会有存储目标，例如描述程序使用的内存和辅存的容量以及临时文件或移出文件的大小。应设计测试用例来证明这些存储目标没有得到满足。</li>
+</ul>
+</li>
+<li><p>（8）配置测试</p>
+<ul>
+<li>很多软件都支持多种硬件配置，可以运行在多种操作系统下，使用多种 web 浏览器。通常可能的配置数量非常之大，以至于无法全面测试，但应该尽可能测试各种配置。</li>
+</ul>
+</li>
+<li><p>（9）兼容性 / 配置 / 转换测试</p>
+<ul>
+<li>很多软件不是全新的，而是为了替换某些已有的系统。这样的软件往往涉及与已有系统的兼容以及从已有系统的转换过程，如升级数据库管理系统。</li>
+</ul>
+</li>
+<li><p>（10）安装测试</p>
+<ul>
+<li>有些软件的安装过程非常复杂，测试安装过程是系统测试的一个重要部分。</li>
+</ul>
+</li>
+<li><p>（11）可靠性测试</p>
+<ul>
+<li>所有测试都是为了提高软件的可靠性，但如果软件的目标中包含了对可靠性的特别描述，就必须设计专门的可靠性测试用例。</li>
+</ul>
+</li>
+<li><p>（12）适用性测试</p>
+<ul>
+<li>对于软件的适用性和可维护性目标也必须测试。</li>
+</ul>
+</li>
+<li><p>（13）可恢复性测试</p>
+<ul>
+<li>诸如 OS、DBMS 等软件通常都有可恢复性目标，说明系统如何从硬件失败和数据错误中恢复过来。系统测试的一个目标是证明这些恢复机制不能正确发挥作用。</li>
+<li>可以故意将程序错误植入个系统中，判断系统是否可以从中恢复。</li>
+<li>这些系统的设计目标之一是平均恢复时间（MTTR）最小，测试目标之一就是证明系统不能满足 MTTR 的要求。</li>
+</ul>
+</li>
+<li><p>（14）文档测试</p>
+<ul>
+<li>系统测试也需要检查用户文档的正确性和清晰性。</li>
+</ul>
+</li>
+<li><p>（15）过程测试</p>
+<ul>
+<li>很多软件系统不是完全自动化的，其中包括了很多人员操作过程。在系统测试中，必须对所有已规定的人工过程，如系统操作员、最终用户、数据库管理员的操作过程进行测试。</li>
+</ul>
+</li>
+</ul>
+<h2 id="验收测试"><a href="# 验收测试" class="headerlink" title="验收测试"></a>验收测试 </h2><h3 id="是将程序与其最初的需求及最终用户当前的需要进行比较的过程"><a href="# 是将程序与其最初的需求及最终用户当前的需要进行比较的过程" class="headerlink" title="是将程序与其最初的需求及最终用户当前的需要进行比较的过程"></a> 是将程序与其最初的需求及最终用户当前的需要进行比较的过程 </h3><h3 id="通常是由程序的客户或最终用户来进行，一般不认为是软件开发机构的职责"><a href="# 通常是由程序的客户或最终用户来进行，一般不认为是软件开发机构的职责" class="headerlink" title="通常是由程序的客户或最终用户来进行，一般不认为是软件开发机构的职责"></a> 通常是由程序的客户或最终用户来进行，一般不认为是软件开发机构的职责 </h3><h3 id="最好的方法是设计测试用例，尽力证明程序没有满足合同要求；假如这些测试用例都通过了，就可以接受该程序。"><a href="# 最好的方法是设计测试用例，尽力证明程序没有满足合同要求；假如这些测试用例都通过了，就可以接受该程序。" class="headerlink" title="最好的方法是设计测试用例，尽力证明程序没有满足合同要求；假如这些测试用例都通过了，就可以接受该程序。"></a> 最好的方法是设计测试用例，尽力证明程序没有满足合同要求；假如这些测试用例都通过了，就可以接受该程序。</h3><h2 id="补充"><a href="# 补充" class="headerlink" title="补充"></a>补充 </h2><h3 id="根据软件生命周期中的定义，可以把自动化测试工具分为 3 大类："><a href="# 根据软件生命周期中的定义，可以把自动化测试工具分为 3 大类：" class="headerlink" title="根据软件生命周期中的定义，可以把自动化测试工具分为 3 大类："></a> 根据软件生命周期中的定义，可以把自动化测试工具分为 3 大类：</h3><ul>
+<li>白盒测试工具</li>
+<li>黑盒测试工具</li>
+<li>测试管理工具</li>
+</ul>
+<h3 id="白盒测试可分为哪两大类"><a href="# 白盒测试可分为哪两大类" class="headerlink" title="白盒测试可分为哪两大类"></a>白盒测试可分为哪两大类</h3><ul>
+<li>静态测试</li>
+<li>动态测试</li>
+</ul>
+<h3 id="软件是包括 -、-、- 的完整集合"><a href="# 软件是包括 -、-、- 的完整集合" class="headerlink" title="软件是包括_、_、_的完整集合"></a>软件是包括_、_、_的完整集合</h3><ul>
+<li>程序</li>
+<li>数据</li>
+<li>相关文档</li>
+</ul>
+<h3 id="单元测试是以 - 说明书为指导，测试源程序代码"><a href="# 单元测试是以 - 说明书为指导，测试源程序代码" class="headerlink" title="单元测试是以_说明书为指导，测试源程序代码"></a>单元测试是以_说明书为指导，测试源程序代码</h3><ul>
+<li>详细设计</li>
+</ul>
+<h3 id="集成测试以 - 说明书为指导，测试软件结构"><a href="# 集成测试以 - 说明书为指导，测试软件结构" class="headerlink" title="集成测试以_说明书为指导，测试软件结构"></a>集成测试以_说明书为指导，测试软件结构</h3><ul>
+<li>概要设计</li>
+</ul>
+<h3 id="确认测试以 - 说明书为指导"><a href="# 确认测试以 - 说明书为指导" class="headerlink" title="确认测试以_说明书为指导"></a>确认测试以_说明书为指导</h3><ul>
+<li>需求分析</li>
+</ul>
+<h3 id="软件开发的基本过程"><a href="# 软件开发的基本过程" class="headerlink" title="软件开发的基本过程"></a>软件开发的基本过程</h3><ul>
+<li>需求分析</li>
+<li>概要设计</li>
+<li>详细设计</li>
+<li>编码</li>
+<li>测试</li>
+<li>维护</li>
+</ul>
+<h3 id="集成测试把模块组成成系统的测试方式：和"><a href="# 集成测试把模块组成成系统的测试方式：和" class="headerlink" title="集成测试把模块组成成系统的测试方式：和"></a>集成测试把模块组成成系统的测试方式：<em>和</em></h3><ul>
+<li>一次性集成测试</li>
+<li>增量式集成测试</li>
+</ul>
+<h3 id="黑盒测试有两种基本方法"><a href="# 黑盒测试有两种基本方法" class="headerlink" title="黑盒测试有两种基本方法"></a>黑盒测试有两种基本方法</h3><ul>
+<li>通过测试</li>
+<li>失败测试</li>
+</ul>
+<h3 id="Junit 中左右的 Assert 方法全部放在 - 类，用于对比 - 和实际值是否相同"><a href="#Junit 中左右的 Assert 方法全部放在 - 类，用于对比 - 和实际值是否相同" class="headerlink" title="Junit 中左右的 Assert 方法全部放在_类，用于对比_和实际值是否相同"></a>Junit 中左右的 Assert 方法全部放在_类，用于对比_和实际值是否相同</h3><ul>
+<li>Assert</li>
+<li>期望值</li>
+</ul>
+<h3 id="软件测试的目的是"><a href="# 软件测试的目的是" class="headerlink" title="软件测试的目的是"></a>软件测试的目的是</h3><p>A) 证明软件的正确性<br>B) 找出软件系统中存在的所有错误<br>C) 证明软件系统中存在错误<br>D) 尽可能多地发现软件系统中的错误</p>
+<ul>
+<li>D</li>
+<li>[解析] 软件测试是为了发现程序中的错误而执行程序的过程，所以软件测试的目的是尽可能多地发现软件系统中的错误，而不是证明程序或软件的正确性。一个成功的测试应该是发现了至今为止尚未发现的错误。</li>
+</ul>
+<h3 id="按照测试组织划分，软件测试可分为：开发方测试、第三方测试和"><a href="# 按照测试组织划分，软件测试可分为：开发方测试、第三方测试和" class="headerlink" title="按照测试组织划分，软件测试可分为：开发方测试、第三方测试和_"></a>按照测试组织划分，软件测试可分为：开发方测试、第三方测试和_</h3><ul>
+<li>用户测试</li>
+</ul>
+<h3 id="计算环路复杂度的方法有哪三种"><a href="# 计算环路复杂度的方法有哪三种" class="headerlink" title="计算环路复杂度的方法有哪三种"></a>计算环路复杂度的方法有哪三种</h3><ul>
+<li>V(G) = 判定节点数 + 1</li>
+<li>V(G) = E - N + 2</li>
+<li>V(G) = 区域数 + 1</li>
+</ul>
+<p><em>XMind - Trial Version</em></p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">sleepingraven</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://sleepingraven.github.io/notes/ruan-jian-ce-shi-ji-zhu/">https://sleepingraven.github.io/notes/ruan-jian-ce-shi-ji-zhu/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">sleepingraven</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/software-engineering/">
+                                    <span class="chip bg-color">软件工程</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/medias/reward/shou-dao.png" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/medias/reward/liao-jie.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .twikoo-card {
+        margin: 1.5rem auto;
+    }
+
+    .twikoo-card .card-content {
+        padding: 20px;
+    }
+
+    #tcomments textarea {
+        box-sizing: border-box;
+        background: url("/") 100% 100% no-repeat;
+    }
+
+    #tcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #tcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #tcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #tcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #tcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #tcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #tcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #tcomments ul li {
+        list-style-type: disc;
+    }
+
+    #tcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #tcomments table,
+    th,
+    td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #tcomments table,
+    th,
+    td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n),
+    thead {
+        background-color: #fafafa;
+    }
+
+    #tcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #tcomments table td {
+        min-width: 80px;
+    }
+
+    #tcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #tcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #tcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #tcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #tcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #tcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #tcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #tcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #tcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #tcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #tcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #tcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #tcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #tcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #tcomments [type="checkbox"]:not(:checked),
+    [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #tcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #tcomments dfn {
+        font-style: italic;
+    }
+
+    #tcomments small {
+        font-size: 85%;
+    }
+
+    #tcomments cite {
+        font-style: normal;
+    }
+
+    #tcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #tcomments table,
+    th,
+    td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n),
+    thead {
+        background-color: #fafafa;
+    }
+
+    #tcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #tcomments table td {
+        min-width: 80px;
+    }
+
+    #tcomments [type="checkbox"]:not(:checked),
+    [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card twikoo-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div class="card-content" style="display: grid">
+        <div id="tcomments"></div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.iohttps://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js"></script>
+<script>
+    twikoo.init({
+        envId: 'base-1-2g49rp3dc92a16bd',
+        el: '#tcomments',
+        region: '',
+        path: ''
+    }).then(function () {
+        var tkInputs = document.querySelector('#twikoo').getElementsByTagName('input');
+        for (var tkInputsIndex = 0; tkInputsIndex < tkInputs.length; tkInputsIndex++) {
+            if (tkInputs[tkInputsIndex]) {
+                tkInputs[tkInputsIndex].classList.add('browser-default');
+            }
+        }
+    });
+</script>
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/practice/openstack-kai-yuan-yun-ji-suan-ping-tai-da-jian/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/medias/featureimages/17.jpg" class="responsive-img" alt="OpenStack 开源云计算平台搭建">
+                        
+                        <span class="card-title">OpenStack 开源云计算平台搭建</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-01-22
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/practice/" class="post-category">
+                                    实战
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/big-data/">
+                        <span class="chip bg-color">大数据</span>
+                    </a>
+                    
+                    <a href="/tags/cloud-computing/">
+                        <span class="chip bg-color">云计算</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/notes/yun-ji-suan-yu-da-shu-ju-gai-lun/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/medias/featureimages/18.jpg" class="responsive-img" alt="云计算与大数据概论">
+                        
+                        <span class="card-title">云计算与大数据概论</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            云计算与大数据知识点
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-21
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/notes/" class="post-category">
+                                    笔记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/big-data/">
+                        <span class="chip bg-color">大数据</span>
+                    </a>
+                    
+                    <a href="/tags/cloud-computing/">
+                        <span class="chip bg-color">云计算</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2021</span>
+            
+            <span id="year">2021</span>
+            <a href="/about" target="_blank">sleepingraven</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">35.6k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2021";
+                    var startMonth = "1";
+                    var startDate = "21";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/sleepingraven" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:spgrvn@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/materialize/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/aos/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+
+    
+
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/background/ribbon-dynamic.js" async="async"></script>
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/gh/sleepingraven/sleepingraven.github.io/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

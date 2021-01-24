@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://sleepingraven.github.io/practice/mapreduce-bian-cheng-shi-jian/</loc>
+    
+    <lastmod>2021-01-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/practice/hadoop-da-shu-ju-ping-tai-da-jian/</loc>
+    
+    <lastmod>2021-01-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/practice/openstack-kai-yuan-yun-ji-suan-ping-tai-da-jian/</loc>
+    
+    <lastmod>2021-01-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/notes/ruan-jian-ce-shi-ji-zhu/</loc>
+    
+    <lastmod>2021-01-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/notes/yun-ji-suan-yu-da-shu-ju-gai-lun/</loc>
+    
+    <lastmod>2021-01-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/notes/ji-suan-ji-cao-zuo-xi-tong/</loc>
+    
+    <lastmod>2021-01-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/document/ascii-bian-ma-yi-lan-biao/</loc>
+    
+    <lastmod>2021-01-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/404/index.html</loc>
+    
+    <lastmod>2021-01-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/friends/index.html</loc>
+    
+    <lastmod>2021-01-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/contact/index.html</loc>
+    
+    <lastmod>2021-01-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/about/index.html</loc>
+    
+    <lastmod>2021-01-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/tags/index.html</loc>
+    
+    <lastmod>2021-01-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/categories/index.html</loc>
+    
+    <lastmod>2021-01-21</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>https://sleepingraven.github.io/</loc>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://sleepingraven.github.io/tags/big-data/</loc>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/tags/cloud-computing/</loc>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/tags/internet-technology/</loc>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/tags/software-engineering/</loc>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/tags/computer/</loc>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/tags/operating-system/</loc>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://sleepingraven.github.io/categories/practice/</loc>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/categories/document/</loc>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/categories/notes/</loc>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
