@@ -102,13 +102,6 @@
 
   
   <url>
-    <loc>https://sleepingraven.github.io/tags/internet-technology/</loc>
-    <lastmod>2021-01-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://sleepingraven.github.io/tags/big-data/</loc>
     <lastmod>2021-01-24</lastmod>
     <changefreq>daily</changefreq>
@@ -117,6 +110,13 @@
   
   <url>
     <loc>https://sleepingraven.github.io/tags/cloud-computing/</loc>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sleepingraven.github.io/tags/internet-technology/</loc>
     <lastmod>2021-01-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -146,14 +146,14 @@
 
   
   <url>
-    <loc>https://sleepingraven.github.io/categories/document/</loc>
+    <loc>https://sleepingraven.github.io/categories/practice/</loc>
     <lastmod>2021-01-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://sleepingraven.github.io/categories/practice/</loc>
+    <loc>https://sleepingraven.github.io/categories/document/</loc>
     <lastmod>2021-01-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
